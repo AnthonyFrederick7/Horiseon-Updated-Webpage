@@ -23,6 +23,8 @@ N/A
   - https://github.com/Xandromus
   - https://developer.mozilla.org
   - www.w3schools.com
+  - https://github.com/Christoph551
+  - https://github.com/jminor90
 
 ## License
 
