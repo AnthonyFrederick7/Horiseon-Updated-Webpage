@@ -60,11 +60,11 @@ header nav ul li {
 
 /* Featured top image */
 
-div.hero {
+figure.hero {
 	margin-bottom: 25px;
 }
 
-div.hero img {
+figure.hero img {
 	height: 800px;
 	width: 100%;
 	object-fit: cover;
