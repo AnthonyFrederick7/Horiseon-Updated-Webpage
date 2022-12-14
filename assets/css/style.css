@@ -8,7 +8,6 @@ body {
     background-color: #d9dcd6;
 }
 
-/*Changed header from class to type*/
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -21,7 +20,7 @@ header h1 {
     font-size: 48px;
 }
 
-header h1 .seo {
+header h1 span {
     color: #d9dcd6;
 }
 
@@ -51,7 +50,9 @@ p {
     font-size: 16px;
 }
 
-/*Changed hero class selector to figure element selector.*/
+
+/* Changed from the hero class selector to the figure element selector. */
+
 figure {
     height: 800px;
     width: 100%;
@@ -61,6 +62,12 @@ figure {
     background-position: center;
 }
 
+article {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+
+}
 
 .float-left {
     float: left;
@@ -72,14 +79,10 @@ figure {
     margin-left: 25px;
 }
 
-main {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
-}
 
-/*Condensed 3 classes by using the Descendant combinator*/
-main section {
+/* Consolidate these 3 section values. */
+
+article section {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -97,7 +100,6 @@ main section {
     background-color: #0072bb;
     color: #ffffff;
 }
-
 .online-reputation-management {
     margin-bottom: 20px;
     padding: 50px;
@@ -106,7 +108,6 @@ main section {
     background-color: #0072bb;
     color: #ffffff;
 }
-
 .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
@@ -117,7 +118,48 @@ main section {
 }
 */
 
-aside  {
+/* Consolidate these 3 h2 values. */
+
+article section h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/*
+.search-engine-optimization h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+.online-reputation-management h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+.social-media-marketing h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+*/
+
+/* Consolidated the 3 class img selectors into the image selector in the code below.*/ 
+
+article section img {
+    max-height: 200px;
+
+}
+
+/*
+.search-engine-optimization img {
+    max-height: 200px;
+}
+.online-reputation-management img {
+    max-height: 200px;
+}
+.social-media-marketing img {
+    max-height: 200px;
+}
+*/
+
+aside {
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -126,32 +168,29 @@ aside  {
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
+    color: #ffffff;
 }
 
-/*Condensed 3 classes by using the Descendant combinator*/
+/* Consolidate these 3 margin-bottom property-values. */
+
 aside section {
     margin-bottom: 32px;
-    color: #ffffff;
 }
 
 /*
 .benefit-lead {
     margin-bottom: 32px;
-    color: #ffffff;
 }
-
 .benefit-brand {
     margin-bottom: 32px;
-    color: #ffffff;
 }
-
 .benefit-cost {
     margin-bottom: 32px;
-    color: #ffffff;
 }
 */
 
-/*Condensed 3 classes by using the Descendant combinator*/
+/* Consolidate these 3 margin-bottom and text-align property-values for Aside h3. */
+
 aside section h3 {
     margin-bottom: 10px;
     text-align: center;
@@ -162,87 +201,40 @@ aside section h3 {
     margin-bottom: 10px;
     text-align: center;
 }
-
 .benefit-brand h3 {
     margin-bottom: 10px;
     text-align: center;
 }
-
 .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 */
 
-/*Condensed 3 classes by using the Descendant combinator*/
-aside img { display: block;
+/* Consolidate these 3 Aside img values. */
+
+aside img {
+    display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-
 /*
 .benefit-lead img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-
 .benefit-brand img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-
 .benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 */
-
-/*Condensed 3 classes by using the Descendant combinator*/
-main img {
-    max-height: 200px;
-}
-
-/*
-.search-engine-optimization img {
-    max-height: 200px;
-}
-
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-*/
-
-/*Condensed 3 classes by using the Descendant combinator*/
-main h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-/*
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-*/
-
-/*Changed footer from class to type*/
 footer {
     padding: 30px;
     clear: both;
@@ -253,17 +245,3 @@ footer {
 footer h2 {
     font-size: 20px;
 }
-Footer
-© 2022 GitHub, Inc.
-Footer navigation
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
