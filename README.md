@@ -16,7 +16,7 @@ N/A
 
 ## Usage
 
-N/A
+The navigation bar at the top left of the page has 3 links that will take you to the topic listed.
 
 ## Credits
 
