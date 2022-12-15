@@ -22,10 +22,10 @@ The navigation bar at the top left of the page has 3 links that will take you to
 
   - https://github.com/Xandromus
   - https://developer.mozilla.org
-  - www.w3schools.com
   - https://github.com/Christoph551
   - https://github.com/jminor90
   - https://github.com/codeDevLogan
+  - www.w3schools.com
 
 ## License
 
