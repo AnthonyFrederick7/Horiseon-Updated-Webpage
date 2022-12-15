@@ -18,7 +18,6 @@ p {
 	font-size: 16px;
 }
 
-/* Header */
 
 header {
 	padding: 20px;
@@ -36,7 +35,7 @@ header h1 .seo {
 	color: #d9dcd6;
 }
 
-/* Navigation */
+/* Changed div to nav */
 
 header nav {
 	padding-top: 15px;
@@ -57,7 +56,6 @@ header nav ul li {
 
 /* Main */
 
-/* Featured top image */
 
 div.hero {
 	margin-bottom: 25px;
@@ -69,7 +67,6 @@ div.hero img {
 	object-fit: cover;
 }
 
-/* Content Section - Horiseon Services */
 
 section.content {
 	width: 75%;
@@ -77,7 +74,6 @@ section.content {
 	margin-left: 20px;
 }
 
-/* Articles - Services Descriptions */
 
 section.content article.content {
 	margin-bottom: 20px;
@@ -107,7 +103,6 @@ section.content article.content h2 {
 	font-size: 36px;
 }
 
-/* Benefits Aside */
 
 aside.benefits {
 	margin-right: 20px;
@@ -120,7 +115,6 @@ aside.benefits {
 	background-color: #0072bb;
 }
 
-/* Benefits articles - descriptions of benefits */
 
 aside.benefits article.benefit {
 	margin-bottom: 32px;
