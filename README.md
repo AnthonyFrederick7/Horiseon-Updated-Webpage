@@ -17,6 +17,7 @@ N/A
 ## Usage
 
 The navigation bar at the top left of the page has 3 links that will take you to the topic listed.
+![Image of website](assets/images/horiseon-screenshot.png)
 
 ## Credits
 
