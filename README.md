@@ -20,7 +20,7 @@ N/A
 
 The navigation bar at the top left of the page has 3 links that will take you to the topic listed.
 
-![Image of website](assets/images/horiseon-screenshot.png)
+![Image of website](assets/images/https://github.com/AnthonyFrederick7/Horiseon-Updated-Webpage/blob/main/assets/images/anthonyfrederick7.github.io_Horiseon-Updated-Webpage_.png)
 
 ## Credits
 
